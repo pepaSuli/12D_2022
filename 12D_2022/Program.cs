@@ -31,6 +31,7 @@ namespace _12D_2022
                 ir.WriteLine("{0}: {1}. témakör", nevek[i], tetelek[szam]);
 
                 tetelek.RemoveAt(szam);
+                //asdasda
             }
 
             for (int i = 0; i < tetelek.Count; i++)
@@ -39,6 +40,7 @@ namespace _12D_2022
                 Console.WriteLine("{0}: {1}. témakör", nevek[szam], tetelek[i]);
                 ir.WriteLine("{0}: {1}. témakör", nevek[szam], tetelek[i]);
                 nevek.RemoveAt(szam);
+            
             }
 
             ir.Close();
