@@ -29,7 +29,7 @@ namespace _12D_2022
                 int szam = rand.Next(0, tetelek.Count);
                 Console.WriteLine("{0}: {1}. témakör", nevek[i], tetelek[szam]);
                 ir.WriteLine("{0}: {1}. témakör", nevek[i], tetelek[szam]);
-
+                    
                 tetelek.RemoveAt(szam);
                 //asdasda
             }
