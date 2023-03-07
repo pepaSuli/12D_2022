@@ -14,10 +14,22 @@ class feladat
     List<JatekosLovese> lovesek = new List<JatekosLovese>();
     public void f7()
     {
+        int minIndex = 0;
         for (int i = 0; i < lovesek.Count; i++)
         {
-
+            if (lovesek[minIndex].Tavolsag() > lovesek[i].Tavolsag())
+            {
+                minIndex = i;
+            }
         }
+
+        Console.WriteLine("7. feladat: Legpontossabb lövés");
+        Console.WriteLine("\t{0}.; {1}; x={2}; y={3}; távolság={4}", 
+                lovesek[minIndex].sorszam, 
+                lovesek[minIndex].nev, 
+                lovesek[minIndex].abcissza, 
+                lovesek[minIndex].ordinata, 
+                lovesek[minIndex].Tavolsag());
     }
     public void f5()
     {
