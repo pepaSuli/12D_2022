@@ -1,0 +1,16 @@
+﻿<Window x:Class="szam2szovegWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:szam2szovegWPF"
+        mc:Ignorable="d"
+        Title="Szöveges számok" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="label" Content="Kérek egy számot:" HorizontalAlignment="Left" Margin="48,34,0,0" VerticalAlignment="Top" Height="59" Width="204" FontSize="20"/>
+        <Label x:Name="label1" Content="Label" HorizontalAlignment="Left" Margin="28,125,0,0" VerticalAlignment="Top" Width="730" FontSize="40"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="37" Margin="252,38,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="164" FontSize="20" TextChanged="textBox_TextChanged"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="48,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="167" Width="710"><Run Text="TextBlock"/><Run Text=" sdafas dfsad -sa fdsa dfsa df- sdasdafasdfasdfsa-dfasfd-asd-fas-df-safd-sadf-as-fd-sa-fd-safd-sa-df-as-f-as-df-as-df-asd-fa-sdf-a-sdf-as-fd-sa-fda-sdsa-df-sa-df-"/></TextBlock>
+
+    </Grid>
+</Window>

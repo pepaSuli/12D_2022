@@ -97,5 +97,14 @@ namespace korok
         {
             return r * r * Math.PI;
         }
+
+        public double tavolsag(kor masik)
+        {
+            int a = x - masik.x;
+            int b = y - masik.y;
+            double c = Math.Sqrt(a * a + b * b);
+
+            return c - r - masik.r;
+        }
     }
 }
